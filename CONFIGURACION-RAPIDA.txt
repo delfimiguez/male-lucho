@@ -1,0 +1,236 @@
+/* ============================================================================
+   GUÍA DE CONFIGURACIÓN RÁPIDA
+   Copia y pega esta información en los lugares indicados
+   ============================================================================ */
+
+// =============================================================================
+// 1️⃣ SCRIPT.JS - CONFIG (líneas 14-35)
+// =============================================================================
+
+eventDate: '2025-10-04T17:00:00',  // ← Cambia la fecha aquí (formato: YYYY-MM-DDTHH:MM:SS)
+
+googleFormUrl: 'PEGA_TU_GOOGLE_FORM_URL_AQUÍ',
+
+googleCalendarUrl: 'PEGA_TU_GOOGLE_CALENDAR_URL_AQUÍ',
+
+mapsCeremonyUrl: 'PEGA_TU_GOOGLE_MAPS_URL_CEREMONIA',
+
+mapsPartyUrl: 'PEGA_TU_GOOGLE_MAPS_URL_FIESTA',
+
+whatsappNumber: '5491123456789',  // ← Formato: código país + área + número (sin espacios)
+
+nombres: {
+    nombre1: 'NOMBRE_COMPLETO_1',
+    nombre2: 'NOMBRE_COMPLETO_2'
+},
+
+
+// =============================================================================
+// 2️⃣ INDEX.HTML - HERO SECTION (líneas 70-100)
+// =============================================================================
+
+<!-- Iniciales (líneas ~74-78) -->
+<span class="initial">F</span>  <!-- ← Primera inicial -->
+<span class="initial">J</span>  <!-- ← Segunda inicial -->
+
+<!-- Nombres completos (líneas ~82-85) -->
+<span class="name">Florencia</span>  <!-- ← Nombre completo 1 -->
+<span class="name">Julián</span>     <!-- ← Nombre completo 2 -->
+
+
+// =============================================================================
+// 3️⃣ INDEX.HTML - DETALLES DEL EVENTO (líneas 135-185)
+// =============================================================================
+
+/* CEREMONIA */
+<p class="event-date">4 de Octubre de 2025</p>
+<p class="event-time">17:00 hs</p>
+<p class="event-location">Espacio Pilar</p>
+<p class="event-address">Av. Example 1234, Pilar, Buenos Aires</p>
+
+/* FIESTA */
+<p class="event-date">4 de Octubre de 2025</p>
+<p class="event-time">19:00 hs</p>
+<p class="event-location">Espacio Pilar</p>
+<p class="event-address">Av. Example 1234, Pilar, Buenos Aires</p>
+
+/* DRESS CODE */
+<p>Elegante sport</p>  <!-- o "Formal", "Semi-formal", etc. -->
+
+
+// =============================================================================
+// 4️⃣ INDEX.HTML - HISTORIA (línea ~210)
+// =============================================================================
+
+<p>
+Nos conocimos en [AÑO] y desde ese momento supimos que queríamos pasar 
+el resto de nuestras vidas juntos. [Agregar más detalles de la historia...]
+</p>
+
+
+// =============================================================================
+// 5️⃣ INDEX.HTML - DATOS BANCARIOS (líneas 285-305)
+// =============================================================================
+
+<p><strong>Nombre del Titular:</strong> Nombre Completo</p>
+<p><strong>DNI:</strong> 12345678</p>
+<p><strong>Banco:</strong> Banco Galicia</p>
+
+/* PESOS */
+<p><strong>CBU:</strong> <span class="copyable" data-value="1234567890123456789012">1234567890123456789012</span></p>
+<p><strong>Alias:</strong> <span class="copyable" data-value="nombre.apellido">nombre.apellido</span></p>
+
+/* DÓLARES (si aplica) */
+<p><strong>CBU:</strong> <span class="copyable" data-value="0987654321098765432109">0987654321098765432109</span></p>
+
+
+// =============================================================================
+// 6️⃣ INDEX.HTML - INFORMACIÓN ÚTIL (líneas 320-340)
+// =============================================================================
+
+/* ALOJAMIENTO */
+<p>
+Hoteles recomendados cerca del lugar: Hotel ABC (tel: 123-456), 
+Hotel XYZ (tel: 789-012). También hay opciones de Airbnb en la zona.
+</p>
+
+/* TRANSPORTE */
+<p>
+El lugar cuenta con estacionamiento gratuito para 100 autos. 
+También organizaremos transporte desde Buenos Aires, informar en el RSVP.
+</p>
+
+/* ITINERARIO */
+<p>
+17:00 - Ceremonia | 18:30 - Cocktail | 20:00 - Cena | 22:00 - Fiesta
+</p>
+
+
+// =============================================================================
+// 7️⃣ INDEX.HTML - RSVP (línea ~365)
+// =============================================================================
+
+<p class="rsvp-note">
+Por favor, confirmá tu asistencia antes del 15 de Septiembre de 2025
+</p>
+
+
+// =============================================================================
+// 8️⃣ PERSONALIZACIÓN DE COLORES (styles.css líneas 10-20)
+// =============================================================================
+
+/* Opciones de paletas de colores:
+
+OPCIÓN 1 - Tonos tierra (actual):
+--color-primary: #8B7355;
+--color-primary-dark: #6B5540;
+--color-secondary: #D4B996;
+--color-accent: #C19A6B;
+
+OPCIÓN 2 - Blush/Rosa:
+--color-primary: #D4A5A5;
+--color-primary-dark: #B88B8B;
+--color-secondary: #F5E6E8;
+--color-accent: #E8B4B8;
+
+OPCIÓN 3 - Verde salvia:
+--color-primary: #8B9E8C;
+--color-primary-dark: #6B7B6C;
+--color-secondary: #C8D5C9;
+--color-accent: #A8B9A9;
+
+OPCIÓN 4 - Azul elegante:
+--color-primary: #6B8CAE;
+--color-primary-dark: #4B6C8E;
+--color-secondary: #A8C0D4;
+--color-accent: #8BACC8;
+
+OPCIÓN 5 - Burgundy:
+--color-primary: #8B4852;
+--color-primary-dark: #6B3842;
+--color-secondary: #C8A0A8;
+--color-accent: #A87880;
+*/
+
+
+// =============================================================================
+// 9️⃣ CHECKLIST FINAL ANTES DE DEPLOY
+// =============================================================================
+
+✅ Fecha del evento configurada en script.js
+✅ URLs de Google Form, Calendar, Maps configuradas
+✅ Número de WhatsApp correcto
+✅ Nombres de la pareja actualizados
+✅ Detalles del evento (ceremonia/fiesta) completos
+✅ Historia de la pareja escrita
+✅ Datos bancarios actualizados
+✅ Info útil completada
+✅ Fecha límite RSVP configurada
+✅ 8 fotos agregadas en /assets/img/galeria/
+✅ Imagen de fondo del hero configurada (opcional)
+✅ Colores personalizados (opcional)
+✅ Música agregada y configurada (opcional)
+✅ Probado en mobile y desktop
+✅ Links funcionando correctamente
+
+
+// =============================================================================
+// 🔟 CÓMO GENERAR LOS LINKS
+// =============================================================================
+
+/* GOOGLE FORM */
+1. Ir a forms.google.com
+2. Crear formulario nuevo
+3. Campos sugeridos:
+   - Nombre completo (obligatorio)
+   - Email o teléfono (obligatorio)
+   - ¿Confirmas tu asistencia? (Sí/No)
+   - Número de acompañantes
+   - Restricciones alimentarias (opcional)
+   - Mensaje para los novios (opcional)
+4. Click "Enviar" → Copiar enlace
+
+/* GOOGLE MAPS */
+1. Ir a maps.google.com
+2. Buscar la dirección del lugar
+3. Click en "Compartir" o el ícono de compartir
+4. Copiar el enlace corto
+
+/* GOOGLE CALENDAR */
+Usar este formato (reemplazar datos):
+https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda+NOMBRE1+%26+NOMBRE2&dates=20251004T170000/20251005T030000&details=Celebración+de+nuestra+boda&location=NOMBRE_DEL_LUGAR
+
+O crear evento en Google Calendar y copiar enlace para compartir.
+
+
+// =============================================================================
+// 🎯 DEPLOY RÁPIDO EN NETLIFY
+// =============================================================================
+
+1. Ir a netlify.com (crear cuenta gratis)
+2. Click en "Add new site" → "Deploy manually"
+3. Arrastrar la carpeta del proyecto
+4. ¡Listo! Tendrás una URL como: nombre-random.netlify.app
+5. Puedes cambiar el nombre en "Site settings" → "Change site name"
+6. Dominio custom (opcional): "Domain settings" → "Add custom domain"
+
+
+// =============================================================================
+// ✉️ MENSAJE DE EJEMPLO PARA WHATSAPP
+// =============================================================================
+
+¡Hola! 💍
+
+Te invitamos a celebrar nuestra boda el [FECHA] a las [HORA]hs.
+
+🔗 Todos los detalles aquí: [TU_URL_NETLIFY]
+
+Por favor confirmá tu asistencia antes del [FECHA_LÍMITE].
+
+¡Te esperamos!
+[NOMBRES]
+
+
+// =============================================================================
+// FIN DE LA CONFIGURACIÓN RÁPIDA
+// ============================================================================= */
