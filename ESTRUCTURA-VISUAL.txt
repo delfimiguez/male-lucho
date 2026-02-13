@@ -1,0 +1,289 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  💍 PLANTILLA DE INVITACIÓN DE BODA - ESTRUCTURA DEL PROYECTO              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📦 wedding-invitation/
+│
+├── 📄 index.html ⭐ PRINCIPAL
+│   └── Página HTML completa con todas las secciones
+│       • Hero con countdown
+│       • Detalles del evento (ceremonia + fiesta)
+│       • Galería de fotos
+│       • Regalos (datos bancarios)
+│       • Info útil
+│       • RSVP
+│       • Footer
+│
+├── 🎨 styles.css ⭐ ESTILOS
+│   └── CSS completo y responsive
+│       • Variables CSS personalizables
+│       • Mobile-first design
+│       • Animaciones suaves
+│       • Optimizado para performance
+│
+├── ⚙️ script.js ⭐ FUNCIONALIDAD
+│   └── JavaScript vanilla
+│       • CONFIG editable (fecha, links, datos)
+│       • Countdown en tiempo real
+│       • Animaciones scroll
+│       • Modal de datos bancarios
+│       • Reproductor de música
+│       • Smooth scroll
+│
+├── 📖 README.md ⭐ DOCUMENTACIÓN
+│   └── Guía completa de uso
+│       • Instrucciones de configuración
+│       • Cómo obtener los links
+│       • Personalización de colores/fuentes
+│       • Guía de deployment
+│       • Checklist de QA completo
+│       • Troubleshooting
+│
+├── 📋 CONFIGURACION-RAPIDA.txt ⭐ REFERENCIA RÁPIDA
+│   └── Copy-paste ready
+│       • Todos los placeholders a reemplazar
+│       • Ejemplos concretos
+│       • Paletas de colores sugeridas
+│       • Checklist express
+│
+└── 📁 assets/
+    ├── 🖼️ img/
+    │   └── galeria/ ← AGREGAR 8 FOTOS AQUÍ
+    │       ├── 1.jpg
+    │       ├── 2.jpg
+    │       ├── 3.jpg
+    │       ├── 4.jpg
+    │       ├── 5.jpg
+    │       ├── 6.jpg
+    │       ├── 7.jpg
+    │       ├── 8.jpg
+    │       └── .gitkeep (instrucciones)
+    │
+    └── 🎵 music/ ← OPCIONAL
+        ├── cancion.mp3 (tu música)
+        └── README.md (instrucciones)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🚀 PASOS RÁPIDOS PARA COMENZAR                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1️⃣  EDITAR CONFIGURACIÓN
+    → Abre script.js
+    → Modifica el objeto CONFIG (líneas 14-35)
+    → Pega tus URLs de Google Form, Calendar, Maps
+
+2️⃣  REEMPLAZAR TEXTOS
+    → Abre index.html
+    → Busca todos los [...] y reemplaza con tu info
+    → Usa CONFIGURACION-RAPIDA.txt como referencia
+
+3️⃣  AGREGAR FOTOS
+    → Coloca 8 fotos en assets/img/galeria/
+    → Nombres: 1.jpg, 2.jpg, ... 8.jpg
+    → Optimiza las imágenes (< 200KB cada una)
+
+4️⃣  PROBAR LOCALMENTE
+    → Abre index.html en tu navegador
+    → Verifica que todo funcione
+    → Prueba en mobile (F12 → responsive mode)
+
+5️⃣  DEPLOY
+    → Sube a Netlify (arrastra la carpeta)
+    → O usa GitHub Pages / Vercel
+    → Comparte tu URL única
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🎯 FEATURES INCLUIDAS                                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+✅ 100% Responsive (mobile-first)
+✅ Countdown en tiempo real hasta la fecha del evento
+✅ Animaciones suaves al hacer scroll
+✅ Modal para datos bancarios con copy-to-clipboard
+✅ Botón para confirmar asistencia (Google Form)
+✅ Botón para agregar al calendario (Google Calendar)
+✅ Botones de Google Maps para ceremonia y fiesta
+✅ Galería de fotos responsiva (2 cols mobile, 4 desktop)
+✅ Reproductor de música de fondo (opcional)
+✅ Smooth scroll entre secciones
+✅ Lazy loading de imágenes
+✅ Optimizado para SEO básico
+✅ Accesible (contraste, focus states, etc.)
+✅ Sin dependencias externas (vanilla JS)
+✅ Fácil de personalizar (colores, fuentes, textos)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  📱 SECCIONES DE LA WEB                                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. HERO / PORTADA
+   • Iniciales de la pareja
+   • Nombres completos
+   • Tagline ("¡Hoy es el gran día!")
+   • Countdown animado (días, horas, minutos, segundos)
+   • Botón CTA principal
+
+2. DETALLES DEL EVENTO
+   • Ceremonia (horario, lugar, dirección, botón Maps)
+   • Fiesta (horario, lugar, dirección, botón Maps)
+   • Dress code
+   • Info adicional (kids, etc.)
+
+3. NOSOTROS / GALERÍA
+   • Historia de la pareja (texto editable)
+   • Galería de 8 fotos en grid responsive
+   • Hover effects en las imágenes
+
+4. REGALOS
+   • Mensaje personalizable
+   • Botón para ver datos bancarios
+   • Modal con CBU/Alias en pesos y dólares
+   • Función copy-to-clipboard
+
+5. INFORMACIÓN ÚTIL (opcional)
+   • Alojamiento recomendado
+   • Información de transporte
+   • Itinerario del día
+
+6. RSVP
+   • Mensaje de invitación
+   • Botón a Google Form
+   • Botón para agregar al calendario
+   • Fecha límite para confirmar
+
+7. FOOTER
+   • Mensaje de agradecimiento
+   • Link de WhatsApp
+   • Créditos
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🎨 PERSONALIZACIÓN                                                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+COLORES (styles.css líneas 10-20)
+• Paleta actual: Tonos tierra elegantes
+• Fácil cambio con variables CSS
+• 5 paletas sugeridas en CONFIGURACION-RAPIDA.txt
+
+FUENTES (index.html + styles.css)
+• Actuales: Playfair Display + Montserrat
+• Fácil cambio con Google Fonts
+• Sugerencias de fuentes alternativas en README
+
+CONTENIDO (index.html)
+• Todos los textos editables
+• Placeholders claros marcados con [...]
+• Copy-paste ready desde CONFIGURACION-RAPIDA.txt
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🔒 CALIDAD Y SEGURIDAD                                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+✓ Código limpio y comentado
+✓ HTML5 semántico
+✓ CSS BEM-inspired
+✓ JavaScript modular (clases)
+✓ Sin vulnerabilidades conocidas
+✓ Sin dependencias externas
+✓ Optimizado para performance
+✓ Lighthouse-ready
+✓ Cross-browser compatible
+✓ WCAG accessibility guidelines
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  ⚡ RENDIMIENTO                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+• < 100KB total (sin imágenes)
+• Lazy loading de imágenes
+• CSS optimizado y minimizable
+• JavaScript eficiente (vanilla)
+• Animaciones con CSS cuando es posible
+• Intersection Observer para scroll animations
+• Debounce en eventos de scroll/resize
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  📊 CHECKLIST DE QA (del README)                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Pre-Deploy:
+□ Placeholders reemplazados
+□ CONFIG completo en script.js
+□ Links funcionando
+□ 8 fotos agregadas
+□ Imagen hero configurada
+□ Colores personalizados
+
+Funcionalidad:
+□ Countdown funciona
+□ Botones abren links correctos
+□ Modal de datos bancarios funciona
+□ Scroll suave funciona
+□ Animaciones funcionan
+
+Responsive:
+□ Mobile 375px-430px ✓
+□ Desktop 1200px+ ✓
+□ No scroll horizontal
+□ Botones táctiles grandes
+
+Performance:
+□ Imágenes optimizadas
+□ < 3s load time
+□ Sin errores en consola
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🎁 BONUS: QUÉ MÁS PUEDES HACER                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+• Agregar video de la pareja (embed YouTube/Vimeo)
+• Instagram feed de #tu-hashtag-de-boda
+• Mapa interactivo con alojamientos cercanos
+• Timeline de cómo se conocieron
+• Sección de "preguntas frecuentes"
+• Registro de regalos online
+• Galería de fotos subidas por invitados
+• Live streaming para quien no pueda asistir
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  💡 TIPS FINALES                                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. Comparte el link de la invitación por WhatsApp con anticipación
+2. Incluye un mensaje corto explicando qué encontrarán en el link
+3. Recuerda a tus invitados confirmar asistencia antes de la fecha límite
+4. Considera crear un grupo de WhatsApp para updates de último momento
+5. Después de la boda, puedes actualizar la web con fotos del evento
+6. Guarda el código - ¡puede servir para futuros eventos!
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🆘 SOPORTE                                                                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Para problemas técnicos:
+1. Lee el README.md (sección Troubleshooting)
+2. Revisa la consola del navegador (F12)
+3. Verifica que todos los archivos estén en las carpetas correctas
+4. Comprueba que los links en CONFIG sean correctos
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+                    ¡DISFRUTA DE TU BODA! 💑🎉
+
+          Esta plantilla fue creada con amor y atención al detalle
+              para que tu invitación digital sea inolvidable
+
+═══════════════════════════════════════════════════════════════════════════════

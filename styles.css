@@ -208,10 +208,28 @@ button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
                       url('assets/img/hero.png');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: center center;
+    background-attachment: scroll;
     text-align: center;
     padding: 2rem 1rem;
+}
+
+/* Hero responsive para mobile */
+@media (max-width: 767px) {
+    .hero {
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        min-height: 100vh;
+        min-height: 100svh; /* Safari mobile fix */
+    }
+}
+
+/* Hero en desktop puede usar fixed */
+@media (min-width: 768px) {
+    .hero {
+        background-attachment: fixed;
+    }
 }
 
 .hero-overlay {
