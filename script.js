@@ -8,7 +8,7 @@
 // ==========================================================================
 const CONFIG = {
     // Fecha del evento (formato: YYYY-MM-DDTHH:MM:SS)
-    eventDate: '2026-04-01T16:15:00',
+    eventDate: '2026-05-01T16:15:00',
 
     // URLs de Google Form y Calendar
     googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSf68RiNgq4sEEjSkQkJ1yxzXUA_S7mv1KRvsu5vYRrzeM7KcQ/viewform',
